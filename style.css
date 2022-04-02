@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Unicod';
+    src: url('UNicod Sans.woff') format('woff');
+}
+
+* {
+	font-family: Unicod;
+	text-align: center;
+	transition-duration: 0.5s;
+}
+
+html, body, #app {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	color: white;
+	text-shadow: 0px 0px 10px white;
+	overflow-x: hidden;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em
+}
+
