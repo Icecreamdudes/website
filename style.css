@@ -14,6 +14,23 @@
   justify-content: space-between;
 }
 
+.project {
+	margin: 10px;
+	padding: 10px;
+	padding-top: 15px;
+	background: #111;
+	width: 50%;
+}
+
+a.link {
+	font-weight: bold;
+	color: violet;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid blue;
+	background: black;
+}
+
 body {
 	color: white;
 	text-shadow: 0px 0px 6px white;
@@ -28,7 +45,7 @@ body {
 
 .generator {
   border: 2px solid khaki;
-  background-color: white;
+  background-color: beige;
   text-align: center;
   width: 300px;
   padding: 15px;
